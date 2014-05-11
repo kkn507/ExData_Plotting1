@@ -8,7 +8,7 @@ DT[,colnames(DT)[3:9]:=lapply(.SD,as.numeric),.SDcols=3:9]
 
 Sys.setlocale("LC_TIME","English")
 
-png(file="plot3.png")
+png(file="plot3.png",bg="transparent")
 
 with(DT,{
      plot(
